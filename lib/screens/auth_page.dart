@@ -16,6 +16,8 @@ class AuthPage extends StatefulWidget {
 }
 
 class _AuthPageState extends State<AuthPage> {
+
+  
   final _firebase = FirebaseAuth.instance;
 
   final _form = GlobalKey<FormState>();
