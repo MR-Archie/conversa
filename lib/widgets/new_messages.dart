@@ -19,6 +19,7 @@ class _NewMessagesState extends State<NewMessages> {
   }
 
   void _sendMessage() async {
+    
     final enteredMessage = _messageController.text;
 
     if (enteredMessage.trim().isEmpty) return;
