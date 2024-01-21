@@ -205,7 +205,7 @@ class _AuthPageState extends State<AuthPage> {
                             child: Text(
                               _isLogin
                                   ? "Don't have an account ? Create account"
-                                  : "Already have an account",
+                                  : "Already have an account ? Login here",
                               style: TextStyle(
                                   color: Theme.of(context).colorScheme.primary),
                             ),
